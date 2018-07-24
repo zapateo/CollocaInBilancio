@@ -17,12 +17,12 @@ Ogni suggerimento e correzione è ben accetto, e può essere effettuato tramite 
 
 ```bash
 git clone https://github.com/zapateo/CollocaInBilancio
-cd CollocaInBilancio
 ```
 
 ## Esecuzione
 
 ```bash
+cd CollocaInBilancio
 ./run.sh
 ```
 
