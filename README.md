@@ -13,10 +13,17 @@ Ogni suggerimento e correzione è ben accetto, e può essere effettuato tramite 
 - Lua
 - Moonscript
 
+## Installazione
+
+```bash
+git clone https://github.com/zapateo/CollocaInBilancio
+cd CollocaInBilancio
+```
+
 ## Esecuzione
 
 ```bash
 ./run.sh
 ```
 
-Una volta avviato, premi INVIO per avanzare
+Una volta avviato, premi INVIO per avanzare, CTRL-C per uscire
