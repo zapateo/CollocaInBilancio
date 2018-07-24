@@ -10,8 +10,8 @@ Ogni suggerimento e correzione è ben accetto, e può essere effettuato tramite 
 
 ## Dipendenze
 
-- Lua
-- Moonscript
+- [Lua](https://www.lua.org/)
+- [Moonscript](https://moonscript.org/)
 
 ## Installazione
 
