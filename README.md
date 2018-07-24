@@ -22,8 +22,7 @@ git clone https://github.com/zapateo/CollocaInBilancio
 ## Esecuzione
 
 ```bash
-cd CollocaInBilancio
-./run.sh
+CollocaInBilancio/run.sh
 ```
 
 Una volta avviato, premi INVIO per avanzare, CTRL-C per uscire
