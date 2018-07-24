@@ -2,7 +2,7 @@
 
 Software da riga di comando per memorizzare la struttura [dello schema di bilancio italiano](https://it.wikipedia.org/wiki/File:Schemi_di_Bilancio.pdf)
 
----
+![screenshot](screenshot.png)
 
 **Attenzione**: il software è ancora in fase di sviluppo, pertanto non mi assumo alcuna responsabilità riguardo al suo funzionamento e/o eventuali errori contenuti nel file [schemi_di_bilancio.moon](schemi_di_bilancio.moon).
 
