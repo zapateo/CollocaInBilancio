@@ -69,7 +69,13 @@ function main()
          os.execute("clear")
          io.write('Dove va collocato "' .. ansicolors.bright .. element .. ansicolors.clear .. '"???\n\n')
          for i = 1, #to_show do
-            io.write(to_show[i] .. " > ")
+            io.write(to_show[i])
+            if i == #to_show and #to_hide == 0 then
+               io.write(".")
+            else
+               io.write(" > ")
+            end
+            io.flush()
          end
          io.write("\n")
          io.read()
