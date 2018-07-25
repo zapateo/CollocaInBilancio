@@ -1,3 +1,7 @@
+-- ATTENZIONE! Il seguente file potrebbe contenere errori per quanto riguarda
+-- la struttura e i contenuti, pertanto non mi assumo alcuna responsabilità
+-- riguardo ad esso
+
 export bilancio = {
     titolo: "Bilancio"
     elementi: {
