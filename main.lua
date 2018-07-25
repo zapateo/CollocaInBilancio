@@ -54,6 +54,14 @@ function take_random_path(t, path)
    end
 end
 
+function string:split(sep)
+   -- From http://lua-users.org/wiki/SplitJoin
+   local sep, fields = sep or ":", {}
+   local pattern = string.format("([^%s]+)", sep)
+   self:gsub(pattern, function(c) fields[#fields+1] = c end)
+   return fields
+end
+
 function main()
    math.randomseed(os.time())
    while true do
