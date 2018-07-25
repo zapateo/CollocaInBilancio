@@ -56,6 +56,7 @@ end
 
 function string:split(sep)
    -- From http://lua-users.org/wiki/SplitJoin
+   -- Example: string.split("ciao amico mio", " ") -> {"ciao", "amico", "mio"}
    local sep, fields = sep or ":", {}
    local pattern = string.format("([^%s]+)", sep)
    self:gsub(pattern, function(c) fields[#fields+1] = c end)
@@ -67,6 +68,9 @@ function main()
    while true do
       random_path = take_random_path(bilancio)
       element = random_path[#random_path]
+      if string.find(element, ":") then
+         element, description = string.split(element, ":")
+      end
       table.remove(random_path, #random_path)
 
       to_show = {}
@@ -88,6 +92,7 @@ function main()
          io.write("\n")
          io.read()
       end
+      print("\n" .. description .. "\n")
       print("Premi ENTER per continuare con la prossima domanda")
       io.read()
    end
