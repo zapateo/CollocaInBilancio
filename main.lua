@@ -69,7 +69,7 @@ function main()
       random_path = take_random_path(bilancio)
       element = random_path[#random_path]
       if string.find(element, ":") then
-         element, description = string.split(element, ":")
+         element, description = table.unpack(string.split(element, ":"))
       end
       table.remove(random_path, #random_path)
 
