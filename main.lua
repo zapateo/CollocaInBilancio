@@ -92,7 +92,9 @@ function main()
          io.write("\n")
          io.read()
       end
-      print("\n" .. description .. "\n")
+      if description then
+         print("\n" .. description .. "\n")
+      end
       print("Premi ENTER per continuare con la prossima domanda")
       io.read()
    end
