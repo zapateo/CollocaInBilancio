@@ -3,7 +3,6 @@
 -- riguardo ad esso
 --
 -- Fonti:
---    http://www.ragioneria.com/libro/stato-patrimoniale
 --    https://wikipedia.org
 --
 export bilancio = {
@@ -15,7 +14,7 @@ export bilancio = {
                 {
                     titolo: "Attivo"
                     elementi: {
-                        "A) Crediti v. soci per vers. ancora dovuti: sottoscrizioni del capitale che non sono ancora state versate. La parte già richiamata è indicata separatamente."
+                        "A) Crediti v. soci per vers. ancora dovuti: parti di capitale che non sono ancora state versate. La parte già richiamata è indicata separatamente."
                         {
                             titolo: "B) Immobilizzazioni"
                             elementi: {
