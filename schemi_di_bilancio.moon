@@ -1,7 +1,11 @@
 -- ATTENZIONE! Il seguente file potrebbe contenere errori per quanto riguarda
 -- la struttura e i contenuti, pertanto non mi assumo alcuna responsabilità
 -- riguardo ad esso
-
+--
+-- Fonti:
+--    http://www.ragioneria.com/libro/stato-patrimoniale
+--    https://wikipedia.org
+--
 export bilancio = {
     titolo: "Bilancio"
     elementi: {
@@ -11,7 +15,7 @@ export bilancio = {
                 {
                     titolo: "Attivo"
                     elementi: {
-                        "A) Crediti v. soci per vers. ancora dovuti"
+                        "A) Crediti v. soci per vers. ancora dovuti: sottoscrizioni del capitale che non sono ancora state versate. La parte già richiamata è indicata separatamente."
                         {
                             titolo: "B) Immobilizzazioni"
                             elementi: {
@@ -19,10 +23,10 @@ export bilancio = {
                                     titolo: "I. Immobilizzazioni immateriali"
                                     elementi: {
                                         "Costi di impianto e di ampliamento"
-                                        "Costi di ricerca di sviluppo e di pubblicità"
+                                        "Costi di ricerca, di sviluppo e di pubblicità"
                                         "Diritti brevetto ind.le e utilizz. opere dell'ingegno"
-                                        "Concessioni licenze marchi e diritti simili"
-                                        "Avviamento"
+                                        "Concessioni licenze, marchi e diritti simili"
+                                        "Avviamento: valore posseduto da un'azienda il cui valore è superiore alla somma dei singoli beni, come ad esempio la fidelizzazione della clientela, il prestigio, la reputazione dell'azienda ecc.."
                                         "Immobilizzazioni in corso ed acconti"
                                     }
                                 }
