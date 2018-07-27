@@ -70,6 +70,8 @@ function main()
       element = random_path[#random_path]
       if string.find(element, ":") then
          element, description = table.unpack(string.split(element, ":"))
+      else
+         description = nil
       end
       table.remove(random_path, #random_path)
 
