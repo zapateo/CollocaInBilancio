@@ -117,8 +117,8 @@ export bilancio = {
                                     {
                                           titolo: "B) Fondi per rischi e oneri"
                                           elementi: {
-                                                "Fondo per trattamento di quiescenza e obb.sim"
-                                                "Fondo per imposte, anche differite"
+                                                "Fondo per trattamento di quiescenza e obblighi simili: la quiescenza è il trattamento a cui ha diritto un dipendente collocato a riposo, che comprende la liquidazione e la pensione"
+                                                "Fondo per imposte, anche differite: le imposte differite sono originate da componenti di costo e/o ricavo che sono rilevanti nell'esercizio in chiusura, ma che esplicano fiscalmente i loro effetti negli esercizi successivi"
                                           }
                                     }
                                     "C) Trattamento di fine rapporto di lavoro subordinato"
