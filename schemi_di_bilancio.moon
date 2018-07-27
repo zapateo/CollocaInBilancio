@@ -26,7 +26,7 @@ export bilancio = {
                                                             "Diritti brevetto ind.le e utilizz. opere dell'ingegno"
                                                             "Concessioni licenze, marchi e diritti simili"
                                                             "Avviamento: valore posseduto da un'azienda il cui valore è superiore alla somma dei singoli beni, come ad esempio la fidelizzazione della clientela, il prestigio, la reputazione dell'azienda ecc.."
-                                                            "Immobilizzazioni in corso ed acconti"
+                                                            "Immobilizzazioni in corso ed acconti (immateriali)"
                                                       }
                                                 }
                                                 {
@@ -36,7 +36,7 @@ export bilancio = {
                                                             "Impianti e macchinario"
                                                             "Attrezzature industriali e commerciali"
                                                             "Altri beni"
-                                                            "Immobilizzazioni in corso ed acconti"
+                                                            "Immobilizzazioni in corso ed acconti (materiali)"
                                                       }
                                                 }
                                                 {
@@ -94,7 +94,7 @@ export bilancio = {
                                                 }
                                           }
                                     }
-                                    "D) Ratei e risconti"
+                                    "D) Ratei e risconti (attivo)"
                               }
                         }
                         {
@@ -140,7 +140,7 @@ export bilancio = {
                                                 "Debiti verso istituti di previdenza e sicurezza sociale"
                                           }
                                     }
-                                    "E) Ratei e risconti"
+                                    "E) Ratei e risconti (passivo)"
                               }
                         }
                   }
